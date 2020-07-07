@@ -65,14 +65,14 @@ body{
 #section{
     font-family: Tahoma,sans-serif;
     background-color: #000;
-    height: 100vh;
+    height: 90vh;
 }
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 .ring{
     position: absolute;
@@ -120,3 +120,16 @@ body{
 }
 
 /* footer */
+footer{
+    background-color: #000;
+    color: #f00;
+    height: 10vh;
+}
+.artist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .8rem;
+    min-height: 10vh;
+}
