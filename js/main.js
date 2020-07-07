@@ -1,6 +1,6 @@
 // animate smooth scroll
 
-$('#take-peak').on('click', function(){
+$('#come-in').on('click', function(){
     const section = $('#section').position().top;
 
     $('body, html').animate({
